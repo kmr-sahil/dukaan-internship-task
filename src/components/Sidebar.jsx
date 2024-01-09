@@ -17,7 +17,7 @@ import { RiWallet3Line } from "react-icons/ri";
 
 function Sidebar() {
   return (
-    <div className='w-[14rem] min-h-screen bg-blue-950 px-[10px] py-[16px] flex-col justify-between'>
+    <div className='w-[14rem] fixed h-[100%] bg-blue-950 px-[10px] py-[16px] flex flex-col justify-between'>
 
         <div className='flex flex-col self-stretch justify-items-stretch gap-[24px]'>
 

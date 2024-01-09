@@ -55,7 +55,7 @@ function PayoutsPage() {
     ]
 
   return (
-    <div className='flex-1 flex flex-col '>
+    <div className='ml-[14rem] flex-1 flex flex-col '>
 
         <Navbar></Navbar>
 
@@ -132,7 +132,7 @@ function PayoutsPage() {
 
         </div>
 
-        <div className='flex flex-col px-[2rem]  gap-[24px]'>
+        <div className='flex flex-col px-[2rem] pb-[2rem] gap-[24px]'>
 
             <h1 className='text-[20px] font-medium'>Transactions | This Month</h1>
 
@@ -178,7 +178,7 @@ function PayoutsPage() {
                 </div>
 
                 
-            {data.map((item, index) => (
+            {data.map((item, index) => (        // {/* performing conditional rendering */}
                 <List key={index} data={item}/>
             ))}
 
